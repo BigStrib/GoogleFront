@@ -28,6 +28,13 @@ body {
     padding: 20px 0;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7); /* Enhanced shadow effect */
     overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.left-panel::-webkit-scrollbar {
+    display: none;
 }
 
 /* Right panel styling */
