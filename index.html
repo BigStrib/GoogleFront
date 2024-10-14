@@ -3,13 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Styled Search Box</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+    <title>Time and Date Layout</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="search-container">
-        <script async src="https://cse.google.com/cse.js?cx=316b251ecd47d4f50"></script>
-        <div class="gcse-searchbox-only"></div>
+    <div class="container">
+        <div class="left-panel">
+            <div class="time-date-container">
+                <div id="time"></div>
+                <div id="date"></div>
+                <div id="numeric-date"></div>
+
+                <a class="icon-items" href="https://www.google.com" target="_blank">
+                    <img src="icons/google.png" alt="Google Icon">
+                    <p>Google</p>
+                </a>
+
+                <a class="icon-items" href="https://docs.google.com/" target="_blank">
+                    <img src="icons/googledocs.png" alt="Google Icon">
+                    <p>Google Docs</p>
+                </a>
+
+                <a class="icon-items" href="https://workspace.google.com/products/sheets/" target="_blank">
+                    <img src="icons/googlesheets.png" alt="Google Icon">
+                    <p>Google Sheets</p>
+                </a>
+
+                <a class="icon-items" href="https://mail.google.com" target="_blank">
+                    <img src="icons/gmail.png" alt="Gmail Icon">
+                    <p>Gmail</p>
+                </a>
+
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="icon-grid">
+                <!-- Icon and title pairs with links -->
+           
+                <a class="icon-item" href="https://www.youtube.com" target="_blank">
+                    <img src="icons/youtube.png" alt="YouTube Icon">
+                    <p>YouTube</p>
+                </a>
+                <a class="icon-item" href="https://chat.openai.com" target="_blank">
+                    <img src="icons/chatgpt.png" alt="ChatGPT Icon">
+                    <p>ChatGPT</p>
+                </a>
+                <a class="icon-item" href="https://github.com/" target="_blank">
+                    <img src="icons/github.png" alt="Github Icon">
+                    <p>GitHub</p>
+                </a>
+
+                <a class="icon-item" href="https://gemini.google.com/app/" target="_blank">
+                    <img src="icons/gemini.png" alt="Gemini Icon">
+                    <p>Gemini</p>
+                </a>
+
+                <a class="icon-item" href="https://www.facebook.com" target="_blank">
+                    <img src="icons/facebook.png" alt="Facebook Icon">
+                    <p>Facebook</p>
+                </a>
+                
+                <a class="icon-item" href="https://www.instagram.com" target="_blank">
+                    <img src="icons/instagram.png" alt="Instagram Icon">
+                    <p>Instagram</p>
+                </a>
+                <a class="icon-item" href="https://www.pinterest.com" target="_blank">
+                    <img src="icons/pinterest.png" alt="Pinterest Icon">
+                    <p>Pinterest</p>
+                </a>
+                <a class="icon-item" href="https://twitter.com" target="_blank">
+                    <img src="icons/x.png" alt="Twitter Icon">
+                    <p>X</p>
+                </a>
+                <a class="icon-item" href="https://tiktok.com" target="_blank">
+                    <img src="icons/tiktok.png" alt="Tiktok Icon">
+                    <p>TikTok</p>
+                </a>
+
+            </div>
+        </div>
     </div>
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
