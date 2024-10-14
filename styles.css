@@ -42,13 +42,21 @@ body {
     flex-grow: 1;
     background-color: #262626; /* Darker gray for better separation */
     color: #e0e0e0; /* Soft gray text */
-    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle inset shadow */
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
 }
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.right-panel::-webkit-scrollbar {
+    display: none;
+}
+
 
 /* Time and date container */
 .time-date-container {
@@ -221,4 +229,17 @@ body {
 .link-item:focus {
     outline: none; /* Remove default outline */
     box-shadow: 0 0 10px var(--glow-color); /* Glow effect for focused elements */
+}
+
+/* Styling for section titles */
+.icon-section h2 {
+    color: #e0e0e0; /* Soft gray text */
+    margin-bottom: 4px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Space between sections */
+.icon-section {
+    margin-bottom: 4px;
 }
